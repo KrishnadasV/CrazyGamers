@@ -1,33 +1,39 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:100,400,900");
-@import url("https://fonts.googleapis.com/css?family=Anton");
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Orbitron&family=Press+Start+2P&family=Rubik+Mono+One&display=swap');
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
-  background: #0f2027; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #2c5364,
-    #203a43,
-    #0f2027
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #2c5364,
-    #203a43,
-    #0f2027
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Press Start 2P', cursive;
+  background: black;
 }
 
 h1 {
-  color: white;
+  color: rgb(255, 200, 0);
   font-weight: bold;
 }
 
+.navbar-brand {
+  color: #80ff07;
+  font-size: 0.9rem;
+}
+
+.nav-link {
+  font-size: 0.75rem;
+}
+
+.nav-link:hover {
+  color: orangered;
+  font-size: 0.75rem;
+}
 /* logo attribution:
 <a href="https://www.freepik.com/free-vector/joystick-game-sport-technology_10549680.htm#query=video%20game%20logo&position=11&from_view=search&track=ais">Image by catalyststuff</a> on Freepik
+*/
+
+/*
+font-family: 'Bungee Shade', cursive;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Rubik Mono One', sans-serif;
 */
